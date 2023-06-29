@@ -1,0 +1,49 @@
+<html>
+    
+    <head>
+        <script type="text/javascript">
+            function slide1(){
+            document.getElementById('id').src="b1ret.png" ;
+            setTimeout("slide2()", 3000)
+            document.getElementById('aId').href="https://www.instagram.com/filiperet/"
+            }
+            
+            function slide2(){
+            document.getElementById('id').src="b2ret.png";
+            setTimeout("slide3()", 3000)
+            document.getElementById('aId').href="https://open.spotify.com/artist/7gJN8W0589FisSYJS17K54"
+            }
+            
+            function slide3(){
+            document.getElementById('id').src="b3ret.png";
+            setTimeout("slide1()", 3000)
+            document.getElementById('aId').href="https://www.youtube.com/channel/UC9vsg8Lpxf2R8CjaLrd-R1g"
+            }
+            </script>
+            
+        <title>Retchêêê</title>
+        <link rel="stylesheet" type= "text/css" href="estiloret.css">
+    </head>
+
+    <body onload="slide1()">
+
+    <div id="d11">
+            <img src="logoret-removebg-preview.png" width= 640 height= 214> <br>
+            <a href="homeret.htm">  
+                Home
+            <a href="historico.htm">  
+                Histórico
+            <a href="discografia.htm">  
+                Discografia
+            <a href="shows.htm">  
+                Shows
+             <a href="fotos.htm">  
+                Fotos 
+            </a> 
+    </div>
+
+    <div id="content">
+        <a id="aId"><img id="id" class="tamanho"></a>
+    </div>
+    </body>
+</html>
